@@ -36,6 +36,18 @@ func main()  {
 	xxx = ngaga()
 	xxx = xxx + 10
 	fmt.Println(xxx)
+
+	stst := "Goの文字列\\n\n\\ngogo"
+	fmt.Printf("%v", stst)
+
+	stst2 := `
+fafafadfa
+
+aaaaaaa
+\n
+\n
+`
+	fmt.Printf("%v", stst2)
 }
 
 var xxx = 100

@@ -6,7 +6,7 @@ import (
 
 //-- -----------------------------------------------------------new
 type Person struct {
-	Id int
+	Id   int
 	Name string
 	Area string
 }
@@ -29,6 +29,7 @@ func (ip IntPair) First() int {
 func (ip IntPair) Last() int {
 	return ip[1]
 }
+
 type Strings []string
 
 func (s Strings) Join(d string) string {

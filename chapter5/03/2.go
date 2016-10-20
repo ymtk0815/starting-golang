@@ -123,7 +123,6 @@ func hoge5() {
 	Println(b.Bodies)
 }
 
-
 func main() {
 	hoge1()
 	Println("---------------------\n")

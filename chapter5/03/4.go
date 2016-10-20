@@ -5,7 +5,7 @@ import (
 )
 
 type User struct {
-	Id int
+	Id   int
 	Name string
 }
 
@@ -30,15 +30,13 @@ func (p *Point) ToString() string {
 }
 func sum42() {
 	f := (*Point).ToString
-	Println(f(&Point{X:7, Y:11}))
-	Println(((*Point).ToString)(&Point{X:11, Y:33}))
+	Println(f(&Point{X: 7, Y: 11}))
+	Println(((*Point).ToString)(&Point{X: 11, Y: 33}))
 
-	pp := &Point{X:2, Y:3}
+	pp := &Point{X: 2, Y: 3}
 	ff := pp.ToString
 	Println(ff())
 }
-
-
 
 func main() {
 	sum41()
@@ -47,4 +45,3 @@ func main() {
 	Println("-- -----------------------------------------\n")
 
 }
-
